@@ -16,7 +16,7 @@ It implements 3 Gaussian filter as following
 
 
 
-===== The result: (in my core-i7 6700HQ) =====
+===== The result: (on my NB, Windows 10, core-i7 6700HQ) =====
 
 (1) Running floating point gaussian kernel 7x7
 
