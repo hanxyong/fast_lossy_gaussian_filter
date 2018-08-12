@@ -1,11 +1,16 @@
 # Two-phase Fast lossy Gaussian Filter
 These code demonstrate a two-phase Gaussian filter with only integer calculation and high memory locality usage or less cache miss with only few penalty of some lossy edgges.
 
+
 Note: in main.cpp it will need opencv to demonstrate the image, or you can just get the gaussian_filter.h and gaussian_filter.cpp
 
+
 It implements 3 Gaussian filter as following
+
 (1) Floating point kernel 
+
 (2) Discrete integer kernel without division, using right-shift bits to replace division to gain performance
+
 (3) 2-phase, edges-lossy, integer kernel, it is super fast, less cache-miss.
 
 ===== The result: (in my core-i7 6700HQ) =====
