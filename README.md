@@ -1,4 +1,4 @@
-# fast_lossy_gaussian_filter
+# Two-phase Fast lossy Gaussian Filter
 These code demonstrate a two-phase Gaussian filter with only integer calculation and high memory locality usage or less cache miss with only few penalty of some lossy edgges.
 
 Note: in main.cpp it will need opencv to demonstrate the image, or you can just get the gaussian_filter.h and gaussian_filter.cpp
