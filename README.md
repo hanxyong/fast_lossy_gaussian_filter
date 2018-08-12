@@ -13,6 +13,9 @@ It implements 3 Gaussian filter as following
 
 (3) 2-phase, edges-lossy, integer kernel, it is super fast, less cache-miss.
 
+
+
+
 ===== The result: (in my core-i7 6700HQ) =====
 
 (1) Running floating point gaussian kernel 7x7
